@@ -1,0 +1,460 @@
+<!doctype html><html><head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <script type="text/javascript" src="app.js"></script>
+  
+    <style>
+
+#naming
+   {
+     font-size: 3rem;
+     color:rgba(255,255,255,0.3);
+   }
+   
+   #end
+   {
+     background-color:rgb(1,28,54);
+     text-align:center;
+     height:300px;
+   }
+
+      .showing
+      {
+        border:4px solid rgba(1, 26, 49, 0.3);
+        width:50%;
+        margin-left:25%;
+      }
+      
+      .services
+      {
+       background-color:rgb(1,28,54,0.5);
+       
+      }
+     .headservice
+     {
+       text-align: center;
+       font-size:1.8em;
+    
+     }
+
+    #bgimg
+     {
+      /** background-image:linear-gradient(90deg, rgba(255,255,255,0.4),rgba(0,0,0,0.4)),url('https://images.unsplash.com/photo-1559085715-23704349e326?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9');
+      **/
+      background-image:linear-gradient(240deg, rgba(225,225,225,0.1)37%,rgba(1,28,54,0.1)12%),linear-gradient(124deg, rgba(225,225,225,0.1)16.4%,rgba(1,28,54,0.1)12%),linear-gradient(56deg, rgba(1,28,54,0.8)22%,rgba(1, 26, 49, 0.1)20%),linear-gradient(300deg, rgba(1, 30, 56, 0.8)42%,rgba(1,28,54,0.4)20%),url('');
+      background-size:140% 100%;background-repeat:no-repeat;padding-bottom:30px;
+      background-color:rgba(117, 138, 162,0.2);
+      box-shadow:10px 18px 50px grey;  
+      Z-index:-1;
+     }
+
+     #heading
+      {
+        padding-top:15px;
+       font-size:2.5rem;
+       
+      }
+      body
+      {
+        background-image:url('');
+  
+        color:black;
+        margin:0px;
+        margin-top:-35px;
+      }
+      .nav
+      { 
+        margin-left:0px;
+        display:flex;
+        justify-content:center;
+        position:fixed;
+        margin-top:-5.0px;
+        margin-left:5px;
+        color:black;
+      }
+     .items
+     {
+       padding:5px;
+       text-decoration: none;
+       list-style: none;
+       border:2px solid black; 
+       border-radius:4px; 
+       margin:2px;
+     }
+     .main
+     {
+       border:3px solid lightgrey;
+       padding:0px;
+       padding-top:5px;
+     }
+      .weareready
+    {
+      color:black;
+      margin-left:10px;
+    }
+    #weareready
+    {
+      margin-left:0px;
+      text-align:center;
+    }
+   #welcometocodelooks
+   {
+     font-size:20px;text-align:center;
+   }
+
+
+
+   @media (min-width:370px) and (max-width:430px)
+  {
+    
+    .nav
+    {
+      margin-left:8%;
+    }
+    .items
+    {
+      font-size: 85%;
+    }
+    .contact
+    {
+      padding:12px;
+    }
+  }
+  @media (min-width:431px) and (max-width:470px)
+  {
+  
+    .nav
+    {
+      margin-left:7%;
+    }
+    .items
+    {
+      margin:6%;
+      font-size: 90%;
+    }
+   
+  }
+  @media (min-width:471px) and (max-width:520px)
+  {
+    
+    .nav
+    {
+      margin-left:7%;
+    }
+    .items
+    {
+      margin:7%;
+      font-size: 90%;
+    }
+   
+  }
+  @media (min-width:521px) and (max-width:570px)
+  {
+    
+    .nav
+    {
+      margin-left:15%;
+    }
+    .items
+    {
+      margin:7%;
+      font-size: 92%;
+    }
+   
+  }
+  @media (min-width:571px) and (max-width:620px)
+  {
+    
+    .nav
+    {
+      margin-left:19%;
+    }
+    .items
+    {
+      margin:7%;
+      font-size: 93%;
+    }
+    
+  }
+
+@media (min-width:621px) and (max-width:670px)
+  {
+    
+    .nav
+    {
+      margin-left:22%;
+    }
+    .items
+    {
+      margin:7%;
+      font-size: 94%;
+    }
+    
+  }
+
+@media (min-width:671px) and (max-width:720px)
+  {
+    
+    .nav
+    {
+      margin-left:23%;
+    }
+    .items
+    {
+       margin:7%;
+      font-size: 94%;
+    }
+   
+  }
+
+  @media (min-width:721px) and (max-width:760px)
+  {
+    
+    .nav
+    {
+      margin-left:26%;
+    }
+    .items
+    {
+       margin:7%;
+      font-size: 94%;
+    }
+   
+  }
+
+
+  
+  @media (min-width:760px) and (max-width:870px)
+  {
+    .nav
+    {
+      margin-left: 28%;
+    }
+    .items
+    {
+       margin:7%;
+      font-size: 96%;
+    }
+    
+    
+  }
+  
+ @media (min-width:871px) and (max-width:940px)
+  {
+    .nav
+    {
+      margin-left: 31%;
+    }
+    .items
+    {
+       margin:7%;
+      font-size: 97%;
+    }
+   
+    
+  }
+  
+ @media (min-width:941px) and (max-width:1040px)
+  {
+    .nav
+    {
+      margin-left: 30%;
+    }
+    .items
+    {
+      margin:7.5%;
+      font-size: 99%;
+    }
+
+    
+  }
+  @media (min-width:1041px) and (max-width:1120px)
+  {
+    .nav
+    {
+      margin-left: 35%;
+    }
+    .items
+    {
+      margin:7.5%;
+      font-size: 99%;
+    }
+    
+    
+  }
+
+  @media (min-width:1121px) and (max-width:1240px)
+  {
+    .nav
+    {
+      margin-left: 37%;
+    }
+    .items
+    {
+      margin:8%;
+      font-size: 103%;
+    }
+   
+    
+  }
+ 
+  @media (min-width:1241px) and (max-width:1440px)
+  {
+    .nav
+    {
+      margin-left: 37%;
+    }
+    .items
+    {
+      margin:10%;
+      font-size: 103%;
+    }
+    
+    #register
+      {
+        font-size:145%;
+      }
+      #weareready
+    {
+      margin-top:50px;
+      font-size:30px;
+      
+    }
+  }
+
+  @media (min-width:1441px)
+    {
+      
+      .nav
+    {
+      margin-left: 42%;
+    }
+    .items
+    {
+      margin:12%;
+      font-size: 105%;
+    }
+    
+      
+    }
+  
+   
+
+  
+  
+   
+
+  
+   
+
+  
+   
+
+
+
+
+
+
+
+   
+
+  
+   
+
+  
+   
+
+
+
+
+
+
+
+
+    </style> 
+   </head> 
+   <body> 
+    <div id="bgimg"> 
+     <div> 
+      <h2 id="heading" style="text-align:center">Sheets_Wrap</h2> 
+     </div> 
+     <hr style="background-color:black"> 
+     <ul class="nav flx"> 
+      <li class="items "> HOME</li> 
+      <li class="items main"> SHOWCASE </li> 
+      <li class="items"> CONTACT  </li> 
+      <li class="items">ABOUT </li> 
+     </ul> 
+     <br> 
+     <br> 
+     <div class="weareready"> 
+      <h2 id="weareready" class="weareready">SHOWCASE</h2> 
+      <hr style="width:80%;margin-left:10%; background-color:black"> 
+      <p id="welcometocodelooks">Amazing and filtered items designed and built by <span> our best </span>developers and our community memebers.</p> 
+     </div> 
+     <br> 
+     <br> 
+    </div> 
+    <br> 
+    
+    <br> 
+    <div class="services" id="logo"> 
+    <p class="headservice">LOGO</p>
+  <hr style="align-items: center;width:20%">
+  
+
+  <div class="imag">
+      
+      <a><img class="showing" src="https://i.ibb.co/3y9q57h/again.png" alt="again" border="0"></a>
+  </div>
+  
+<hr>
+    </div>
+    <div class="services" id="front"> 
+      <p class="headservice">Front-end designs</p>
+      <hr style="align-items: center;width:20%">
+       <div class="imag">
+
+      <img src="" alt="" class="showing">
+    
+    </div>
+     </div>
+     <hr>
+   
+    <div class="services" id="graphic"> 
+      <p class="headservice">Graphic Designs</p>
+      <hr style="align-items: center;width:20%">
+       <div class="imag">
+
+        <a><img class="showing" src="https://i.ibb.co/944VCLV/again23.png" alt="again23" border="0"></a>  
+    </div>
+</div>
+
+<hr>
+
+    <div class="services" id="prodmockup"> 
+      <p class="headservice">Product MockUp</p>
+      <hr style="align-items: center;width:20%">
+       <div class="imag">
+      
+        <a><img class="showing" src="https://i.ibb.co/QcB6SRq/again22.png" alt="again22" border="0"></a>
+      </div>
+     </div>
+     <hr>
+   
+    <div class="services" id="cartoon"> 
+      <p class="headservice">Cartoon Designing</p>
+      <hr style="align-items: center;width:20%">
+       <div class="imag">
+    
+        <img src="" alt="" class="showing">
+    
+      </div>
+     </div>
+
+     <hr>
+     <footer id="end">
+      <div id="naming">Sheets_Wrap</div>     
+      <p id="copyr">Copyright under Wrap_Sheets</p> 
+    </footer> 
+   
+  </body></html>
