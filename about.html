@@ -1,0 +1,742 @@
+<!doctype html>
+<html>
+    <head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <script type="text/javascript" src="app.js"></script>
+  
+    <style>
+
+       #naming
+   {
+     font-size: 3rem;
+     color:rgba(255,255,255,0.3);
+   }
+   
+   #end
+   {
+     background-color:rgb(1,28,54);
+     text-align:center;
+     height:300px;
+   }
+
+
+    body      
+      {
+       color:black;
+       margin:0px;
+       margin-top:-19.5px;
+       background-image:url('https://images.unsplash.com/photo-1495576775051-8af0d10f19b1?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjF9');
+       background-size:cover;
+       background-repeat:no-repeat;
+      }
+      #provide
+      {
+      background-color: white;
+      margin-left:90px;
+      margin-right:150px;
+      padding-bottom:20px; 
+      padding-top:30px;
+      border:3px solid grey;
+      }
+      .nav
+      { 
+      margin-left:0px;
+      display:flex;
+      justify-content:center;
+      position:fixed;
+      margin-top:-5.0px;
+      margin-left:0px;
+        color:black;
+      }
+     .items
+     {
+       padding:5px;
+       text-decoration: none;
+       list-style: none;
+       border:2px solid black; 
+       border-radius:4px; 
+       margin:2px;
+     }
+     .main
+     {
+       border:3px solid lightgrey;
+       padding:0px;
+       padding-top:5px;
+     }
+     #heading
+     {
+      font-size:2.5rem;
+      padding-top:10px;
+     }
+      .weareready
+    {
+      color:black;
+      margin-left:10px;
+   
+    }
+    #weareready
+    {
+      margin-left:-5px;
+      
+    }
+   #welcometocodelooks
+   {
+  
+     font-size:20px;
+     margin-bottom:100px;
+   }
+   .simple
+   {
+     margin-top:6px;
+     text-align:center;
+     font-size:2em;
+   }
+   #explain_smart_fast
+   {
+     text-align:center;
+   }
+   #photo_feat
+   {
+     height:100%;
+     width:300px;
+     margin-left:15.0%;
+   }
+   .feat
+   {
+    margin-bottom:15px;
+   }
+
+
+
+
+
+
+   @media (min-width:370px) and (max-width:430px)
+  {
+    
+    .nav
+    {
+      margin-left:8%;
+    }
+    .items
+    {
+      font-size: 85%;
+    }
+    #photo_feat
+   {
+     height:80%;
+     width:200px;
+     margin-left:15.0%;
+   }
+   .feat
+   {
+    margin-bottom:15px;
+   }
+   #provide
+   {
+   background-color: white;
+   margin-left:13px;
+   padding-left: 14px;
+   margin-right:13px;
+   padding-bottom:20px; 
+   padding-top:30px;
+   border:3px solid grey;
+   }
+  }
+  @media (min-width:431px) and (max-width:470px)
+  {
+  
+    .nav
+    {
+      margin-left:7%;
+    }
+    .items
+    {
+      margin:6%;
+      font-size: 90%;
+    }
+    #photo_feat
+   {
+     height:80%;
+     width:200px;
+     margin-left:22.0%;
+   }
+   .feat
+   {
+    margin-bottom:15px;
+   }
+   #provide
+   {
+   background-color: white;
+   margin-left:13px;
+   padding-left: 14px;
+   margin-right:13px;
+   padding-bottom:20px; 
+   padding-top:30px;
+   border:3px solid grey;
+   }
+   
+  }
+  @media (min-width:471px) and (max-width:520px)
+  {
+    
+    .nav
+    {
+      margin-left:7%;
+    }
+    .items
+    {
+      margin:7%;
+      font-size: 90%;
+    }
+    #photo_feat
+   {
+     height:80%;
+     width:200px;
+     margin-left:23.0%;
+   }
+   .feat
+   {
+    margin-bottom:15px;
+   }
+   #provide
+   {
+   background-color: white;
+   margin-left:13px;
+   padding-left: 14px;
+   margin-right:13px;
+   padding-bottom:20px; 
+   padding-top:30px;
+   border:3px solid grey;
+   }
+   
+  }
+  @media (min-width:521px) and (max-width:570px)
+  {
+    
+    .nav
+    {
+      margin-left:15%;
+    }
+    .items
+    {
+      margin:7%;
+      font-size: 92%;
+    }
+    #photo_feat
+   {
+     height:80%;
+     width:200px;
+     margin-left:27.0%;
+   }
+   .feat
+   {
+    margin-bottom:15px;
+   }
+   #provide
+   {
+   background-color: white;
+   margin-left:13px;
+   padding-left: 14px;
+   margin-right:13px;
+   padding-bottom:20px; 
+   padding-top:30px;
+   border:3px solid grey;
+   }
+  }
+  @media (min-width:571px) and (max-width:620px)
+  {
+    
+    .nav
+    {
+      margin-left:19%;
+    }
+    .items
+    {
+      margin:7%;
+      font-size: 93%;
+    }
+    #photo_feat
+   {
+     height:80%;
+     width:200px;
+     margin-left:30%;
+   }
+   .feat
+   {
+    margin-bottom:15px;
+   }
+   #provide
+   {
+   background-color: white;
+   margin-left:13px;
+   padding-left: 14px;
+   margin-right:13px;
+   padding-bottom:20px; 
+   padding-top:30px;
+   border:3px solid grey;
+   }
+  }
+
+@media (min-width:621px) and (max-width:670px)
+  {
+    
+    
+    .nav
+    {
+      margin-left:22%;
+    }
+    .items
+    {
+      margin:7%;
+      font-size: 94%;
+    }
+    #photo_feat
+   {
+     height:80%;
+     width:200px;
+     margin-left:33.0%;
+   }
+   .feat
+   {
+    margin-bottom:15px;
+   }
+   #provide
+   {
+   background-color: white;
+   margin-left:13px;
+   padding-left: 14px;
+   margin-right:13px;
+   padding-bottom:20px; 
+   padding-top:30px;
+   border:3px solid grey;
+   }
+  }
+
+@media (min-width:671px) and (max-width:720px)
+  {
+    
+    .nav
+    {
+      margin-left:23%;
+    }
+    .items
+    {
+       margin:7%;
+      font-size: 94%;
+    }
+    #photo_feat
+   {
+     height:80%;
+     width:235px;
+     margin-left:32.0%;
+   }
+   .feat
+   {
+    margin-bottom:15px;
+   }
+   #provide
+   {
+   background-color: white;
+   margin-left:13px;
+   padding-left: 14px;
+   margin-right:13px;
+   padding-bottom:20px; 
+   padding-top:30px;
+   border:3px solid grey;
+   }
+  }
+
+  @media (min-width:721px) and (max-width:760px)
+  {
+    
+    .nav
+    {
+      margin-left:26%;
+    }
+    .items
+    {
+       margin:7%;
+      font-size: 94%;
+    }
+    #photo_feat
+   {
+     height:80%;
+     width:240px;
+     margin-left:32.0%;
+   }
+   .feat
+   {
+    margin-bottom:15px;
+   }
+   #provide
+   {
+   background-color: white;
+   margin-left:13px;
+   padding-left: 14px;
+   margin-right:13px;
+   padding-bottom:20px; 
+   padding-top:30px;
+   border:3px solid grey;
+   }
+  }
+
+
+  
+  @media (min-width:760px) and (max-width:870px)
+  {
+    .nav
+    {
+      margin-left: 28%;
+    }
+    .items
+    {
+       margin:7%;
+      font-size: 96%;
+    }
+    
+    #photo_feat
+   {
+     height:80%;
+     width:250px;
+     margin-left:32.0%;
+   }
+   .feat
+   {
+    margin-bottom:15px;
+   }
+   #provide
+   {
+   background-color: white;
+   margin-left:13px;
+   padding-left: 14px;
+   margin-right:13px;
+   padding-bottom:20px; 
+   padding-top:30px;
+   border:3px solid grey;
+   }
+  }
+  
+ @media (min-width:871px) and (max-width:940px)
+  {
+    .nav
+    {
+      margin-left: 31%;
+    }
+    .items
+    {
+       margin:7%;
+      font-size: 97%;
+    }
+    #photo_feat
+   {
+     height:80%;
+     width:380px;
+     margin-left:28.0%;
+   }
+   .feat
+   {
+    margin-bottom:15px;
+   }
+   #provide
+   {
+   background-color: white;
+   margin-left:13px;
+   padding-left: 14px;
+   margin-right:13px;
+   padding-bottom:20px; 
+   padding-top:30px;
+   border:3px solid grey;
+   }
+  }
+  
+ @media (min-width:941px) and (max-width:1040px)
+  {
+    .nav
+    {
+      margin-left: 30%;
+    }
+    .items
+    {
+      margin:7.5%;
+      font-size: 99%;
+    }
+
+    #photo_feat
+   {
+     height:80%;
+     width:400px;
+     margin-left:26.0%;
+   }
+   .feat
+   {
+    margin-bottom:15px;
+   }
+   #provide
+   {
+   background-color: white;
+   margin-left:13px;
+   padding-left: 14px;
+   margin-right:13px;
+   padding-bottom:20px; 
+   padding-top:30px;
+   border:3px solid grey;
+   }
+  }
+  @media (min-width:1041px) and (max-width:1120px)
+  {
+    .nav
+    {
+      margin-left: 35%;
+    }
+    .items
+    {
+      margin:7.5%;
+      font-size: 99%;
+    }
+    #photo_feat
+   {
+     height:80%;
+     width:450px;
+     margin-left:27.0%;
+   }
+   .feat
+   {
+    margin-bottom:15px;
+   }
+   #provide
+   {
+   background-color: white;
+   margin-left:13px;
+   padding-left: 14px;
+   margin-right:13px;
+   padding-bottom:20px; 
+   padding-top:30px;
+   border:3px solid grey;
+   }
+  }
+
+  @media (min-width:1121px) and (max-width:1240px)
+  {
+    .nav
+    {
+      margin-left: 37%;
+    }
+    .items
+    {
+      margin:8%;
+      font-size: 103%;
+    }
+    #photo_feat
+   {
+     height:80%;
+     width:470px;
+     margin-left:27.0%;
+   }
+   .feat
+   {
+    margin-bottom:15px;
+   }
+   #provide
+   {
+   background-color: white;
+   margin-left:13px;
+   padding-left: 14px;
+   margin-right:13px;
+   padding-bottom:20px; 
+   padding-top:30px;
+   border:3px solid grey;
+   }
+    
+  }
+ 
+  @media (min-width:1241px) and (max-width:1440px)
+  {
+    .nav
+    {
+      margin-left: 37%;
+    }
+    .items
+    {
+      margin:10%;
+      font-size: 103%;
+    }
+    
+    #register
+      {
+        font-size:145%;
+      }
+      #weareready
+    {
+      margin-top:50px;
+      font-size:38px;
+      
+    }
+    #photo_feat
+   {
+     height:90%;
+     width:380px;
+     margin-left:28.0%;
+   }
+   .feat
+   {
+    margin-bottom:15px;
+   }
+   #provide
+   {
+   background-color: white;
+   margin-left:13px;
+   padding-left: 14px;
+   margin-right:13px;
+   padding-bottom:20px; 
+   padding-top:30px;
+   border:3px solid grey;
+   }
+  }
+
+  @media (min-width:1441px)
+    {
+      
+      .nav
+    {
+      margin-left: 42%;
+    }
+    .items
+    {
+      margin:12%;
+      font-size: 105%;
+    }
+    #photo_feat
+   {
+     height:80%;
+     width:200px;
+     margin-left:23.0%;
+   }
+   .feat
+   {
+    margin-bottom:15px;
+   }
+   #provide
+   {
+   background-color: white;
+   margin-left:13px;
+   padding-left: 14px;
+   margin-right:13px;
+   padding-bottom:20px; 
+   padding-top:30px;
+   border:3px solid grey;
+   }
+      
+    }
+  
+   
+
+  
+  
+   
+
+
+
+
+
+
+   
+
+  
+   
+
+
+   
+
+  
+   
+
+
+   
+
+  
+   
+
+
+   
+
+  
+   
+
+
+   
+
+  
+   
+
+
+
+  </style> 
+   </head> 
+   <body> 
+    <div style="text-align:center;padding-bottom:30px"> 
+     <div> 
+      <h2 id="heading">Web_LooX</h2> 
+     </div> 
+     <hr style="background-color:black"> 
+     <ul class="nav flx"> 
+      <li class="items"> <a href="/home.html"> HOME </a></li> 
+      <li class="items"><a href="/showcase.html"> SHOWCASE  </a></li> 
+      <li class="items"><a href="/contact.html"> CONTACT  </a></li> 
+      <li class="items main"><a href="/about.html">ABOUT  </a></li> 
+    </ul>  
+     <br> 
+     <br> 
+     <div class="weareready"> 
+      <h2 id="weareready" class="weareready">About Us</h2> 
+      <hr style="width:80%;margin-left:10%; background-color:black"> 
+      <p id="welcometocodelooks"> We make Brands </p> 
+     </div> 
+     <hr> 
+     <br> 
+    </div> 
+    <hr> 
+    <div> 
+     <div class="simple">
+       Smarter. and Faster. 
+     </div> 
+     <hr> 
+     <br> 
+     <div id="explain_smart_fast">
+       Web_LooX is a simply and smarter choice for you. 
+      <br> Web_LooX platform provides you full control over your work getting done smarter and the fastest. 
+     </div> 
+     <hr> 
+     <hr> 
+     <br> 
+     <br> 
+  <div id="provide">
+     <div style="margin-top:6px;text-align:center;font-size:2em;">
+       We provide:- 
+     </div> 
+     <div id="feature"> 
+      <a href="https://ibb.co/W0BbHMN"><img id="photo_feat" src="https://i.ibb.co/2ScDFC0/Pngtree-business-management-concept-money-saving-5335911.jpg" alt="Pngtree-business-management-concept-money-saving-5335911" border="0"></a> 
+      <br> 
+      <br> 
+      <div style="text-align:center;margin-left:0px"> 
+       <li class="feat">you the facility of YOUR COST AND YOUR TIME (Only if you need just the frontend design) — you get your work done within your time and your expenditure range.</li> 
+       <li class="feat">you the facility of talking to us realted to your project, until your project is done</li> 
+       <li>you the facility of paying us, after the work is done</li>
+      </div> 
+     </div> 
+    </div>
+     <hr> 
+     <hr> 
+     <div style="text-align:center;background-size:100% 100%;background-repeat:no-repeat;"> 
+      <h1>Web_LooX Platform</h1> 
+      <p style="padding:15px;color:rgb(0, 0, 0)"> Web_LooX is a platform to get your work done easily and quickly.We build what you need.On Code_Looks, you don't have to search for a right developer. Just enter your deatils and details of your projects as well.And you are done:) :) <br> Our experts contact you back within 4 hours, and your work is done super fast. </p> 
+     </div> 
+     <hr> 
+    </div> 
+    <h2 style="margin-top:40px; text-align:center"> Do you want to work with us? </h2> 
+    <p>Call us on :- +91.----------.</p> 
+    <footer id="end">
+      <div id="naming">Sheets_Wrap</div>     
+      <p id="copyr">Copyright under Wrap_Sheets</p> 
+    </footer> 
+  </body></html>
