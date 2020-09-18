@@ -1,6 +1,5 @@
 <!doctype html><html><head> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <script type="text/javascript" src="app.js"></script>
     <script type="text/javascript" src="server.js"></script>
   
   
@@ -197,7 +196,7 @@
      <br> 
      <hr> 
      <hr>
-     <form action="/send_email_form" method="POST"> 
+     <form method="POST"> 
     
       <div style="text-align:center"> 
       <div style="display:felx;margin-top:20px" type="submit"> 
@@ -222,7 +221,7 @@
        <p> Enter the category to which your order belongs to:-</p> 
        <textarea name="code" id="themeCode" cols="45" rows="4" placeholder="Enter the category(compulsory)"></textarea> 
       </div> 
-      <button type="submit" id="register" style="margin-top:10px;margin-left:-10px;margin-bottom:50px">REGISTER FOR YOUR PROJECT</button> 
+      <button href="/register" onClick="sendEmail()" type="submit" id="register" style="margin-top:10px;margin-left:-10px;margin-bottom:50px">REGISTER FOR YOUR PROJECT</button> 
      </div> </form>
     </div> 
     <footer id="end">
