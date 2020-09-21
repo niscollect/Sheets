@@ -16,6 +16,35 @@ const path = require('path');
 
 const app = express();
 
+
+
+app.get('/',(req,res) => {
+
+    res.sendFile(__dirname + '/index.html')
+   })
+
+
+app.get("/index.html", (req,res)=>{
+    res.sendFile(__dirname + '/index.html')
+});
+app.get("/about.html", (req,res)=>{
+    res.sendFile(__dirname + '/about.html')
+});
+app.get("/contact.html", (req,res)=>{
+    res.sendFile(__dirname + '/contact.html')
+});
+app.get("/showcase.html", (req,res)=>{
+    res.sendFile(__dirname + '/showcase.html')
+});
+app.get("/register.html", (req,res)=>{
+    res.sendFile(__dirname + '/register.html')
+});
+
+
+
+
+
+
 app.get('/register.html',(req,res) => {
 
  res.sendFile(__dirname + '/register.html')
