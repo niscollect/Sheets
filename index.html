@@ -1,7 +1,8 @@
 <!doctype html><html><head> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="app.js"></script>
-
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Mali:ital,wght@0,500;1,300&display=swap" rel="stylesheet"> 
+     <script type="text/javascript" src="app.js"></script>
+   
     <style> 
 
     
@@ -16,7 +17,7 @@
    #naming
    {
      font-size: 3rem;
-     color:rgba(255,255,255,0.3);
+     color:rgba(255,255,255,0.9);
    }
    
    #end
@@ -24,6 +25,7 @@
      background-color:rgb(1,28,54);
      text-align:center;
      height:300px;
+     z-index: +1;
    }
 
     .Dsection
@@ -60,10 +62,18 @@
      {
       /** background-image:linear-gradient(90deg, rgba(255,255,255,0.4),rgba(0,0,0,0.4)),url('https://images.unsplash.com/photo-1559085715-23704349e326?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9');
       **/
-      background-image:linear-gradient(240deg, rgba(225,225,225,0.1)37%,rgba(0,0,0,0.1)12%),linear-gradient(124deg, rgba(225,225,225,0.1)16.4%,rgba(0,0,0,0.1)12%),linear-gradient(56deg, rgba(0,0,0,0.8)22%,rgba(0,0,0,0.1)20%),linear-gradient(300deg, rgba(0,0,0,0.8)42%,rgba(0,0,0,0.4)20%),url('https://images.unsplash.com/photo-1515703817793-511cee221bb9?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9');
-     background-size:140% 100%;background-repeat:no-repeat;padding-bottom:30px;
+     
+     
+     
+     
+     
+     /** background-image:linear-gradient(240deg, rgba(225,225,225,0.1)37%,rgba(0,0,0,0.1)12%),linear-gradient(124deg, rgba(225,225,225,0.1)16.4%,rgba(0,0,0,0.1)12%),linear-gradient(56deg, rgba(0,0,0,0.8)22%,rgba(0,0,0,0.1)20%),linear-gradient(300deg, rgba(0,0,0,0.8)42%,rgba(0,0,0,0.4)20%),url('https://images.unsplash.com/photo-1515703817793-511cee221bb9?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9');
+     **/
+     background-image:linear-gradient(240deg, rgba(225,225,225,0.1)16%,rgba(0,0,0,0.1)12%),linear-gradient(124deg, rgba(225,225,225,0.1)16.4%,rgba(0,0,0,0.1)12%),linear-gradient(56deg, rgba(0,0,0,0.8)22%,rgba(0,0,0,0.1)20%),linear-gradient(300deg, rgba(0,0,0,0.8)22%,rgba(0,0,0,0.01)20%),url('https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1350&fit=max&ixid=eyJhcHBfaWQiOjF9');
+   
+     display:140% 100%;background-repeat:no-repeat;padding-bottom:30px;
       background-color:rgba(117, 138, 162,0.2);
-      box-shadow:10px 18px 50px grey;  
+      box-shadow:10px 18px 50px black;  
       Z-index:-1;
      }
       #heading
@@ -74,6 +84,11 @@
        }
       body
       {
+
+        font-family: 'Lobster', cursive;
+        font-family: 'Mali', cursive;
+
+
         overflow-x: hidden;
   
         color:black;
@@ -99,7 +114,7 @@
        border:2px solid black; 
        border-radius:4px; 
       margin:1.5%;
-       color:white;
+       
        font-size:0.8rem;
      }
     
@@ -325,6 +340,7 @@
     }
     .nav
     {
+      margin-top: -1%;
       margin-left:26%;
     }
     .items
@@ -529,6 +545,7 @@
       .nav
     {
       margin-left: 42%;
+      margin-top: -10px;
     }
     .items
     {
@@ -583,18 +600,18 @@
   
    </style>
    </head> 
-   <body> 
+   <body onscroll="scrollWin()"> 
     <div id="bgimg" style="text-align:center"> 
      <div> 
       <h2 id="heading">Sheets_Wrap</h2> 
      </div> 
      <hr style="background-color:black"> 
      <div id="nc">
-     <ul class="nav flx"> 
-      <li class="items main"> <a href="/index.html" style="text-decoration: none; color:white"> HOME </a></li> 
-      <li class="items"><a href="/showcase.html" style="text-decoration: none; color:white"> SHOWCASE </a></li> 
-      <li class="items"><a href="/contact.html" style="text-decoration: none; color:white"> CONTACT  </a></li> 
-      <li class="items"><a href="/about.html" style="text-decoration: none; color:white;">ABOUT  </a></li> 
+     <ul class="nav flx" style=" margin-top: -1%;"> 
+      <li class="items main"> <a href="/index.html" style="text-decoration: none; color:black"> HOME </a></li> 
+      <li class="items"><a href="/showcase.html" style="text-decoration: none; color:black"> SHOWCASE </a></li> 
+      <li class="items"><a href="/contact.html" style="text-decoration: none; color:black"> CONTACT  </a></li> 
+      <li class="items"><a href="/about.html" style="text-decoration: none; color:black;">ABOUT  </a></li> 
      </ul> 
      </div>
      <br> 
@@ -605,7 +622,7 @@
       <p id="welcometocodelooks"> Welcome to <span id="anim">Sheets_Wrap</span>,<br>where you get the best out of your <span><br>creativity</span> and our expert's <span>uniqueness.</span><br>Try us <span>out now!</span></p> 
      <br>
      <br>
-      <button class="register" style="margin-left:-20px;cursor:pointer;"><a href="register.html">REGISTER FOR YOUR PROJECT</a></button> <br>
+      <button class="register" style="margin-left:-20px;cursor:pointer;"><a href="register.html" style="color:white">REGISTER FOR YOUR PROJECT</a></button> <br>
      </div> 
     
      <br> 
@@ -625,7 +642,7 @@
     </div> 
     <a> </a> 
    
-   <a><img id="pngp" src="https://i.ibb.co/f1tMCqS/CHLO.png" alt="CHLO" border="0"></a><br /><a></a><br />
+   <a><img id="pngp" src="https://i.ibb.co/nPSwNwD/nyaawaalaa.png" alt="CHLO" border="0"></a><br /><a></a><br />
 <hr style="width:50%; height:5px; color:black; background-color:black;align-items:center; margin-top:-2%;">
    
     <br> 
@@ -943,7 +960,7 @@
     
     <hr style="margin-left:0px"> 
     <h2 style="text-align:center"><span style="font-size:42px">W</span>hy Sheets_Wrap <span style="font-size:42px">?</span></h2> 
-    <a><img style="opacity: 0.3;width:100%;height:100%" src="https://i.ibb.co/r7XmsKB/Pngtree-cartoon-hand-drawn-hacker-computer-5425748.png" alt="Pngtree-cartoon-hand-drawn-hacker-computer-5425748" border="0"></a> 
+    <a><img style="opacity: 0.3;width:95%;height:90%" src="https://i.ibb.co/r7XmsKB/Pngtree-cartoon-hand-drawn-hacker-computer-5425748.png" alt="" border="0"></a> 
     <div style="margin-top:-90%"> 
      <div style="display:flex;margin-left:4%; border:2px solid white;"> 
       <a><img class="qimages"  src="https://i.ibb.co/L9g42pK/Pngtree-happy-businessman-vector-get-money-5436231.png" alt="Pngtree-happy-businessman-vector-get-money-5436231" border="0"></a> 
@@ -974,7 +991,17 @@
     </footer>    
     </script>
     
-      
+    <script>
+    jQuery(window).scroll(function() {    
+            var scroll = jQuery(window).scrollWin();
+        
+            if (scroll >= 150) {
+                jQuery("items").addClass("black");
+            } else {
+                jQuery("items").removeClass("black");
+            }
+        });    
+      </script>
 
 
 
