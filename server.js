@@ -20,10 +20,7 @@ app.get('/register.html',(req,res) => {
 
  res.sendFile(__dirname + '/register.html')
 })
-app.get('/',(req,res) => {
 
-    res.sendFile(__dirname + '/register.html')
-   })
 
 /**app.use(express.static('./')); 
 **/
