@@ -66,7 +66,7 @@ const transporter = nodemailer.createTransport({
     service:'gmail',
     auth:{
         user:'collectnis@gmail.com',
-        pass:'free_fire123'        
+        pass:'password-need to be edited'        
     }
 });
 
